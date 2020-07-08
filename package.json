@@ -7,14 +7,10 @@
     "asynchronous",
     "component"
   ],
-  "main": "dist/src/index.js",
+  "main": "src/index.js",
   "author": "min9nim@gmail.com",
   "license": "MIT",
-  "scripts": {
-    "build": "tsc -p tsconfig.prod.json --declaration --outDir dist",
-    "test": "mocha -r ts-node/register test/**/*.spec.ts",
-    "dev": "ts-node test"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/min9nim/react-asynccomponent.git"
