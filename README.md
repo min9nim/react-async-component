@@ -9,7 +9,7 @@ Load react component dynamically
 ```js
 import React, { useEffect } from 'react'
 import { BrowserRouter, Route } from 'react-router-dom'
-import Loading from 'components/Loading'
+import Loading from './components/Loading'
 import AsyncComponent from '@mgsong/react-async-component'
 
 export default function Routes() {
