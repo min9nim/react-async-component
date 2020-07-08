@@ -1,6 +1,6 @@
 {
-  "name": "react-asynccomponent",
-  "version": "0.0.1",
+  "name": "@mgsong/react-async-component",
+  "version": "0.0.2",
   "description": "Load react component dynamically",
   "keywords": [
     "react",
@@ -10,10 +10,12 @@
   "main": "src/index.js",
   "author": "min9nim@gmail.com",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "publish": "npm publish --access=public"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/min9nim/react-asynccomponent.git"
+    "url": "git+https://github.com/min9nim/react-async-component.git"
   },
   "devDependencies": {
     "react": "^16.13.1"
